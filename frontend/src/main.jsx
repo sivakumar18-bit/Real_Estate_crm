@@ -48,7 +48,7 @@ async function api(path, options = {}) {
 
 function Login({ onLogin }) {
   const [email, setEmail] = useState("admin@crm.local");
-  const [password, setPassword] = useState("admin123");
+  const [password, setPassword] = useState("Admin@123");
   const [error, setError] = useState("");
 
   async function handleSubmit(e) {
