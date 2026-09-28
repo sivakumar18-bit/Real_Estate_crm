@@ -296,3 +296,102 @@ small {
   footer small {
     display: none;
   }
+footer button {
+    margin-top: 0;
+    padding: 8px 10px;
+  }
+
+  main {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+    padding-top: 75px;
+  }
+
+  main > h1 {
+    font-size: 24px;
+  }
+
+  section {
+    padding: 15px;
+    overflow: hidden;
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .stats div {
+    padding: 14px;
+  }
+
+  .stats b {
+    font-size: 22px;
+  }
+
+  .toolbar {
+    width: 100%;
+  }
+
+  .toolbar input {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .toolbar button {
+    flex: 1;
+  }
+
+  table {
+    min-width: 600px;
+  }
+
+  section:has(table) {
+    overflow-x: auto;
+  }
+
+  .modal {
+    padding: 15px;
+  }
+
+  .modal > div,
+  .modal form {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .modal form {
+    padding: 18px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 400px) {
+  aside h2 {
+    font-size: 16px;
+  }
+
+  aside button {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  main {
+    padding: 10px;
+    padding-top: 70px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stats b {
+    font-size: 24px;
+  }
+
+  section {
+    padding: 12px;
+  }
+}
